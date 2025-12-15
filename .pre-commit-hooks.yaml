@@ -1,0 +1,6 @@
+-   id: validate-branchname
+    name: validate-branchname
+    description: 'Validate git branch name'
+    entry: validate-branchname
+    language: rust
+    pass_filenames: false

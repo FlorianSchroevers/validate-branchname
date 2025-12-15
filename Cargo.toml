@@ -1,0 +1,13 @@
+[package]
+name = "validate-branchname"
+version = "0.1.0"
+edition = "2024"
+
+[[bin]]
+name = "validate-branchname"
+path = "src/main.rs"
+
+[dependencies]
+clap = "4.5.53"
+git2 = "0.20.2"
+regex = "1.12.2"
