@@ -2,5 +2,5 @@
     name: validate-branchname
     description: 'Validate git branch name'
     entry: validate-branchname
-    language: rust
+    language: python
     pass_filenames: false

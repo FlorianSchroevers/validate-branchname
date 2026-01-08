@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "validate-branchname"
+version = "0.0.2"
+description = "Match current branch name with given regex pattern"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [
+    { name = "Florian Schroevers" }
+]
+keywords = ["git", "branch", "regex", "cli", "validation", "precommit", "prek"]
+dependencies = []
+
+[project.scripts]
+validate-branchname = "main:main"
+
+[project.urls]
+Repository = "https://github.com/FlorianSchroevers/validate-branchname"
+
+[tool.setuptools.packages.find]
+where = ["src"]
