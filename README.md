@@ -26,13 +26,4 @@ Add the following to your `.pre-commit-config.yaml`:
 - Git
 - [pre-commit](https://pre-commit.com/)
 
-## 🛠 Development
-
-Build and run locally:
-
-```bash
-cargo build
-cargo run -- --pattern "^feature/.*$"
-```
-
 P.S. use [prek](https://github.com/j178/prek) for a faster implementation of pre-commit.

@@ -16,7 +16,7 @@ keywords = ["git", "branch", "regex", "cli", "validation", "precommit", "prek"]
 dependencies = []
 
 [project.scripts]
-validate-branchname = "main:main"
+validate-branchname = "validate_branchname.cli:main"
 
 [project.urls]
 Repository = "https://github.com/FlorianSchroevers/validate-branchname"
